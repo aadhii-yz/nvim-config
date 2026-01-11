@@ -8,3 +8,9 @@
 
 -- vim.keymap.set("i", "jj", "<ESC>")
 -- vim.keymap.set("v", "<leader>y", '"+y', opts)
+
+vim.keymap.set("n", "ge", "G")
+vim.keymap.set("n", "gl", "$")
+vim.keymap.set("n", "gh", "0")
+-- vim.keymap.set("n", "<leader>k", "K")
+-- vim.keymap.set("n", "U", "<CTRL>r")
